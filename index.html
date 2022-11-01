@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container">
+          <h1 class="logo">MovieDesign</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-items active">Home</li>
+            <li class="menu-list-items">Movies</li>
+            <li class="menu-list-items">Series</li>
+            <li class="menu-list-items">Popular</li>
+            <li class="menu-list-items">Trends</li>
+          </ul>
+        </div>
+
+        <div class="profile-container">
+          <img src="./images/profile.jpg" alt="profilePic" />
+          <div class="profile-text-container">
+            <span class="profile-text"
+              >Profile
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-sharp fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <i class="side-item fa-solid fa-magnifying-glass"></i>
+      <i class="side-item fa-solid fa-house"></i>
+      <i class="side-item fa-solid fa-users"></i>
+      <i class="side-item fa-solid fa-bookmark"></i>
+      <i class="side-item fa-solid fa-tv"></i>
+      <i class="side-item fas fa-hourglass-start"></i>
+      <i class="side-item fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #747d8c),
+              url('./images/f-1.jpg');
+          "
+        >
+          <img class="featured-title" src="./images/f-t-1.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+            recusandae dolores sed dolore fuga autem ab, perspiciatis veritatis,
+            atque expedita sapiente! Voluptatem, corrupti cupiditate. Fugiat
+            esse repellat veritatis error officiis! Recusandae, maxime labore
+            quae animi id odit velit autem dicta veniam libero ex quis modi
+            tenetur voluptatem, tempora eligendi asperiores.
+          </p>
+          <button class="featured-button">Watch Now</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">New Releases</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list newList">
+              <!-- Image, button, desc are rendered using JS -->
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #747d8c),
+              url('./images/f-2.jpg');
+          "
+        >
+          <img class="featured-title" src="./images/f-t-2.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+            recusandae dolores sed dolore fuga autem ab, perspiciatis veritatis,
+            atque expedita sapiente! Voluptatem, corrupti cupiditate. Fugiat
+            esse repellat veritatis error officiis! Recusandae, maxime labore
+            quae animi id odit velit autem dicta veniam libero ex quis modi
+            tenetur voluptatem, tempora eligendi asperiores.
+          </p>
+          <button class="featured-button">Watch Now</button>
+        </div>
+
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">Trending Now</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list newList2">
+                <!-- Image, button, desc are rendered using JS -->
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
